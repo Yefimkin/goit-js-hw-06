@@ -1,5 +1,5 @@
-const spanColor = document.querySelector('.color')
-const btnChangeColor = document.querySelector('.change-color')
+const spanColor = document.querySelector('span.color')
+const btnChangeColor = document.querySelector('button.change-color')
 
 btnChangeColor.addEventListener('click', changeColorBtnClick)
 

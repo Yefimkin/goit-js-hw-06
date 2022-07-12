@@ -6,7 +6,7 @@ nameInput.addEventListener("input", nameLabel);
 
 function nameLabel() {
   nameOutput.textContent = nameInput.value;
-  if (nameInput.value.trim() !== "") {
+  if (nameInput.value.trim() === "") {
     nameOutput.value = "Anonymous";
   }
 }

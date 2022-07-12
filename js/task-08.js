@@ -12,14 +12,18 @@ function onLoginForm(event) {
         email: email,
         password: password,
     }
-    console.log(formData)
-    form.reset();
+    
 
     if (email === '' || password === '') {
         alert('Пусті поля')
         form.reset();
         return;
     }
+
+    
+    form.reset();
+
+    console.log(formData)
 }
 
 
